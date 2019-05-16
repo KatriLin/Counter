@@ -1,0 +1,58 @@
+.main {
+  background-color: rgb(40, 209, 171);
+  height: 800px;
+}
+
+.numberBtn {
+  height: 250px;
+  width: 250px;
+  border-radius: 50%;
+  font-size: 120px;
+  color: white;
+  background: rgb(124, 22, 180);
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  padding: 30px;
+  text-align: center;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+.numberBtn:active {
+  box-shadow: inset 0 0 1px 1px black;
+}
+
+.numberBtn.even {
+  background-color: rgb(18, 95, 157);
+}
+
+.numberBtn.odd {
+  background-color: rgb(176, 19, 160);
+}
+
+button {
+  position: absolute;
+  padding: 15px 20px;
+  top: 80%;
+  left: 50%;
+  font-size: 20px;
+  border-radius: 10px;
+  border: none;
+  color: white;
+  background-color: rgb(51, 82, 92);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+
+button:active {
+  box-shadow: inset 0 0 1px 1px black;
+}
+
+button:focus {
+  outline: none;
+}
